@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300;400;700&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Patrick+Hand&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@0,100;1,100&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Pacifico', cursive;
+}
+main{
+    height: 100vh;
+    width: 100wh;
+    color: #fff;
+    background-color: #af4462;
+}
+main h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 60px;
+}
+section {
+    text-align: center;
+    width: 50%;
+    margin: 70px auto;
+    /* background-color: #00000070; */
+
+    border-radius: 20px;
+    padding: 100px 0;
+    box-shadow: 0 0 10px 15px #25232349;
+    font-size: 21px;
+}
+section h2 {
+    margin-bottom: 15px;
+}
+section div:nth-child(2){
+    margin-bottom: 15px;
+}
+input{
+    border: unset;
+    outline: unset;
+    background-color: #f2ebed62;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 21px;
+    color: #fff;
+}
+span {
+    cursor: pointer;
+    background-color: #00000070;
+    margin-top: 15px;
+    display: inline-block;
+    padding: 9px 19px;
+    border-radius: 20px;
+}
+#number,
+#result{
+    text-decoration: underline;
+}
